@@ -1,0 +1,21 @@
+.centre-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+.center-link {
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #003e7c;
+    border-radius: 15px;
+    color: white;
+    background-color: #003e7c;
+    max-width: 270px;
+}
+
+h2 {
+    text-align: center;
+}
