@@ -14,12 +14,12 @@ import './global.css';
 
 const App = () => {
   return (
-  <div>
+  <div className='container'>
     <header>
         <h1>Dětský koutek</h1>
     </header>
     <main>
-    <nav>
+    <nav className='nav-container'>
         <Link className='link-nav' to="/homepage">HomePage</Link>
         <Link className='link-nav' to="/about">O nás</Link>
         <Link className='link-nav' to="/contact">Kontakt</Link>

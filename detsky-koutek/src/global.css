@@ -9,20 +9,30 @@ html {
 }
 
 .container {
-  max-width: 26rem;
+  max-width: 75rem;
   margin-right: auto;
   margin-left: auto;
+  background-color:rgb(243, 230, 209);
+  padding: 5px 20px;
 }
 
 .link-nav {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
-  width: 250px;
-  height: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
   background-color: #003e7c;
   color: white;
   padding: 20px;
   border: solid gray 1px;
+}
+
+.nav-container {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 footer {
@@ -30,8 +40,16 @@ footer {
   justify-content: center;
   align-items: center;
   color: rgb(70, 69, 69);
+  padding-top: 50px;
 }
 
 h1, h2 {
   color: #003e7c;;
+}
+
+.text {
+  width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
